@@ -23,7 +23,53 @@ body {
     width: 130px;
 }
 
-#navbar2-container {
-    border-top: 1px solid silver;
-    margin-top: 5px;
+.navbar-header {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    height: 95px;
+    padding: 20px 10px 15px;
+    background-color: #f72210;
+    color: floralwhite;
+}
+
+.location-weather-info h5 h6 {
+    font-size: 15px;
+}
+
+.newsweek-main-logo h2 {
+    font-size: 50px;
+}
+
+.subscribe-login {
+    position: relative;
+}
+
+.action-buttons-holder {
+    position: absolute;
+    top: 40%;
+}
+
+.login-button {
+    background-color: #f72310;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 7px 10px;
+    line-height: 15px;
+    border-radius: 24px;
+    border: 0 none;
+}
+
+.subscription-button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 24px;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    line-height: 15px;
+    border: 0 none;
 }
