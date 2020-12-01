@@ -210,3 +210,49 @@ body {
 .more-story-article {
     margin: 10px 20px;
 }
+
+.opinion {
+    border-bottom: 1px solid silver;
+}
+
+#opinion1 {
+    border-bottom: 1px solid silver;
+    margin-bottom: 2px;
+}
+
+#opinion2 {
+    border-top: 1px solid silver;
+    margin-top: 2px;
+}
+
+
+.opinion-section {
+    margin: 20px 0px;
+}
+
+
+.opinion-container {
+    display: flex;
+    padding: 10px 15px;
+}
+
+.opinion-image {
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    margin-right: 15px;
+}
+
+.opinion-desc .opinion-text {
+    color: inherit;
+    text-decoration: none;
+}
+
+.opinion-desc-author {
+    margin-right: 15px;
+}
+
+.debate {
+    border-top: 3px solid silver;
+    border-bottom: 3px solid silver;
+}
