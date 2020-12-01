@@ -1,5 +1,15 @@
 body {
     font-family: "Roboto Condensed", sans-serif;
+    background-color: #f4f5f6;
+}
+
+.page-header {
+    margin-bottom: 20px;
+}
+
+.page-main {
+    background-color: white;
+    padding: 15px 25px;
 }
 
 #navbar1 {
@@ -19,8 +29,27 @@ body {
     border-left: none;
 }
 
+#navbar1 li a {
+    color: black;
+}
+
+#navbar2-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#navbar2 li:first-child a {
+    color: black;
+    font-weight: 700;
+}
+
 #searchField {
     width: 130px;
+}
+
+.header-container {
+    background-color: white;
+    border-bottom-color: #f4f5f6;
 }
 
 .navbar-header {
@@ -33,12 +62,20 @@ body {
     color: floralwhite;
 }
 
-.location-weather-info h5 h6 {
-    font-size: 15px;
+.location-weather-info .weather-information, .location-weather-info .date-and-time-information  {
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .newsweek-main-logo h2 {
     font-size: 50px;
+}
+
+.newsweek-main-logo svg {
+    width: 396px;
+    height: 60px;
+    /* margin: 10px auto 0; */
+    fill: white;
 }
 
 .subscribe-login {
@@ -165,6 +202,7 @@ body {
     font: "Roboto Condensed",sans-serif;
     text-transform: uppercase;
     padding-bottom: 11px;
+    font-weight: 600;
 }
 
 .my-turn-holder {
@@ -200,6 +238,7 @@ body {
     margin-bottom: 10px;
     position: relative;
     color: black;
+    font-weight: 600;
 }
 
 .more-story-summary {
@@ -233,7 +272,7 @@ body {
 
 .opinion-container {
     display: flex;
-    padding: 10px 15px;
+    padding: 10px 0px;
 }
 
 .opinion-image {
@@ -246,6 +285,8 @@ body {
 .opinion-desc .opinion-text {
     color: inherit;
     text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 .opinion-desc-author {
@@ -253,6 +294,11 @@ body {
 }
 
 .debate {
+    padding: 0px 20px;
     border-top: 3px solid silver;
     border-bottom: 3px solid silver;
+}
+
+.author {
+    font-size: 12px;
 }
