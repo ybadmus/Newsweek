@@ -74,7 +74,8 @@ body {
     border: 0 none;
 }
 
-.featured-story-card .story-title a, .featured-ads-card .story-title a {
+.featured-story-card .story-title a, .featured-ads-card .story-title a, .top-story-card .story-title a,
+.more-story-article a {
     color: inherit;
 }
 
@@ -138,6 +139,16 @@ body {
     color: black;
 }
 
+.story-title-mini {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    color: rgb(61, 59, 59);
+}
+
 .story-title:hover {
     color: #f72210;
 }
@@ -154,4 +165,48 @@ body {
     font: "Roboto Condensed",sans-serif;
     text-transform: uppercase;
     padding-bottom: 11px;
+}
+
+.my-turn-holder {
+    margin-bottom: 10px;
+}
+
+.my-turn-picture {
+    height: 130px;
+    width: 100%;
+}
+
+.my-turn-image-holder {
+    position: relative;
+    min-height: 33px;
+    margin-bottom: 10px;
+}
+
+.article-image-container {
+    margin-bottom: 10px;
+    float: left;
+    width: 95px;
+    margin-right: 15px;
+}
+
+.article-image {
+    width: 95px;
+    height: 95px;
+}
+
+.article-image-title {
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    color: black;
+}
+
+.more-story-summary {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.more-story-article {
+    margin: 10px 20px;
 }
