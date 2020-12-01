@@ -380,7 +380,17 @@ footer {
     float: right;
 }
 
-.top-footer .social-media li {
+.top-footer .social-media li, .middle-footer .middle-footer-list li {
     display: inline;
     margin: 0px 5px;
+    color: #5e5959;
+    font-size: 12px;
+}
+
+.middle-footer .middle-footer-list {
+    padding-left: 0px;
+}
+
+.middle-footer .middle-footer-list li:first-child {
+    margin-left: 0px;
 }
