@@ -359,3 +359,28 @@ body {
     height: auto;
     margin-right: 15px;
 }
+
+footer {
+    background-color: white;
+}
+
+.top-footer .logo-holder {
+    color: red;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.top-footer .copyright {
+    margin-top: revert;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.top-footer .social-media {
+    float: right;
+}
+
+.top-footer .social-media li {
+    display: inline;
+    margin: 0px 5px;
+}
