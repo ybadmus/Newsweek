@@ -270,7 +270,7 @@ body {
 }
 
 
-.opinion-container {
+.opinion-container, .side-news-container {
     display: flex;
     padding: 10px 0px;
 }
@@ -301,4 +301,61 @@ body {
 
 .author {
     font-size: 12px;
+}
+
+.editors-pick-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.bottom-section-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: red;
+    border-bottom: 1px solid silver;
+}
+
+.editors-pick-title img {
+    display: inline-block;
+    width: 29px;
+    height: 28px;
+    margin-right: 5px;
+}
+
+.editors-pick-title h5 {
+    display: inline-block;
+}
+
+.editors-pick-category {
+    margin: 5px 0px;
+}
+
+.editors-pick-category .first-category {
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+
+.editors-pick-category .second-category {
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+
+.bottom-section-news {
+    padding: 20px 0px;
+    border-bottom: 1px solid silver;
+}
+
+.bottom-section-news .story-title {
+    font-size: 18px;
+}
+
+.side-news-container .news-image img {
+    width: 80px;
+    height: auto;
+    margin-right: 15px;
 }
