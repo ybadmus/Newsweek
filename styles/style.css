@@ -380,17 +380,23 @@ footer {
     float: right;
 }
 
-.top-footer .social-media li, .middle-footer .middle-footer-list li {
+.top-footer .social-media li, .middle-footer .middle-footer-list li, .bottom-footer .bottom-footer-list li {
     display: inline;
     margin: 0px 5px;
     color: #5e5959;
     font-size: 12px;
 }
 
-.middle-footer .middle-footer-list {
+.middle-footer .middle-footer-list, .bottom-footer .bottom-footer-list {
     padding-left: 0px;
+    display: flex;
 }
 
-.middle-footer .middle-footer-list li:first-child {
+.middle-footer .bottom-footer-list li, .bottom-footer .bottom-footer-list li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.bottom-footer .bottom-footer-list li:first-child {
     margin-left: 0px;
 }
