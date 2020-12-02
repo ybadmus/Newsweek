@@ -395,6 +395,7 @@ footer {
 .middle-footer .bottom-footer-list li, .bottom-footer .bottom-footer-list li {
     flex-grow: 1;
     text-align: center;
+    border-right: 1px solid gray;
 }
 
 .bottom-footer .bottom-footer-list li:first-child {
