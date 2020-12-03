@@ -65,10 +65,10 @@ body {
 }
 
 .subcribe-newsletter {
-    display: flex;
-    padding: 20px 0px;
-    background-color: #f4f5f6;
-    height: 400px;
+  display: flex;
+  padding: 20px 0;
+  background-color: #f4f5f6;
+  height: 400px;
 }
 
 .story-image-holder .story-category a {
@@ -204,9 +204,9 @@ body {
 }
 
 .feature-image-holder {
-    position: relative;
-    min-height: 33px;
-    margin-bottom: 10px;
+  position: relative;
+  min-height: 33px;
+  margin-bottom: 10px;
 }
 
 .featured-ads-card {
@@ -412,7 +412,7 @@ body {
 }
 
 .bottom-section-featured-title {
-    margin-top: 20px;
+  margin-top: 20px;
   margin-bottom: 10px;
   font-weight: 600;
   color: red;
@@ -475,10 +475,10 @@ footer {
 }
 
 .top-footer .copyright {
-    position: absolute;
-    bottom: 5px;
-    font-size: 12px;
-    margin-bottom: 0px;
+  position: absolute;
+  bottom: 5px;
+  font-size: 12px;
+  margin-bottom: 0;
 }
 
 .top-footer .social-media {
