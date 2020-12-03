@@ -63,8 +63,6 @@ Give a ⭐️ if you like this project!
 👤 **Yusuf A. Badmus**
 
 - GitHub: [@ybadmus](https://github.com/ybadmus)
-- Twitter: [@ybadmus](https://twitter.com/ybadmus)
-- LinkedIn: [@Yusuf Badmus](https://www.linkedin.com/in/yusuf-badmus-a4532422b4)
 
 ## Acknowledgments
 
@@ -74,6 +72,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+<p>This project is <a href="LICENSE">MIT</a> licensed.</p>
 
 ## Enjoy!

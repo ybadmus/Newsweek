@@ -129,9 +129,18 @@ body {
 .newsweek-main-logo svg {
   width: 396px;
   height: 60px;
-
-  /* margin: 10px auto 0; */
   fill: white;
+}
+
+.top-footer svg {
+  width: 250px;
+  height: 40px;
+  margin: 10px auto 0;
+  fill: red;
+}
+
+.top-footer .newsweek-copyright {
+  position: relative;
 }
 
 .subscribe-login {
@@ -141,6 +150,7 @@ body {
 .action-buttons-holder {
   position: absolute;
   top: 40%;
+  right: 5%;
 }
 
 .login-button {
@@ -445,8 +455,10 @@ footer {
 }
 
 .top-footer .copyright {
-  margin-bottom: 0;
-  font-size: 12px;
+    position: absolute;
+    bottom: 5px;
+    font-size: 12px;
+    margin-bottom: 0px;
 }
 
 .top-footer .social-media {
@@ -478,10 +490,14 @@ footer {
   background-color: black;
   color: white;
   position: absolute;
-  top: 36%;
+  top: 40%;
   right: 50%;
   font-size: 14px;
   font-weight: 600;
+}
+
+#searchField input {
+  border: none;
 }
 
 @media screen and (max-width: 564px) {
