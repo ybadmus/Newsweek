@@ -1,21 +1,25 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <!-- <link rel="stylesheet" href="styles/reset.css"> -->
     <script src="https://use.fontawesome.com/fad6d40055.js"></script>
     <title>Newsweek</title>
-  </head>
-  <body>
-      <header class="page-header">
+</head>
+
+<body>
+    <header class="page-header">
         <div class="container header-container d-none d-lg-block">
             <div class="row navbar-header">
                 <div class="col location-weather-info">
@@ -23,12 +27,22 @@
                     <h5 class="date-and-time-information">Thu, Dec 03, 2020 </h5>
                 </div>
                 <div class="col-5 newsweek-main-logo">
-                        <a class="brand" href="https://www.newsweek.com"><svg version="1.1" width="396" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 396 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g><path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path></g></svg></a>
+                    <a class="brand" href="https://www.newsweek.com"><svg version="1.1" width="396" height="60"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                            y="0px" viewBox="0 0 396 60" style="enable-background:new 0 0 395.6 60;"
+                            xml:space="preserve">
+                            <g>
+                                <path class="st0"
+                                    d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+                                </path>
+                            </g>
+                        </svg></a>
                 </div>
                 <div class="col subscribe-login">
                     <div class="action-buttons-holder">
                         <button class="login-button">LOGIN</button>
-                        <button class="subscription-button">SUBSCRIBE <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                        <button class="subscription-button">SUBSCRIBE <i class="fa fa-angle-right"
+                                aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -75,7 +89,8 @@
                         <div class="input-group" id="searchField">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                             <div class="input-group-append">
-                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-search"
+                                        aria-hidden="true"></i></span>
                             </div>
                         </div>
                     </form>
@@ -117,26 +132,29 @@
                         <li class="nav-item">
                             <i class="fa fa-user d-sm-inline d-md-none menu-person-logo" aria-hidden="true"></i>
                             <button class="login-button d-none d-md-inline">LOGIN</button>
-                            <button class="subscription-button">SUBSCRIBE <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                            <button class="subscription-button">SUBSCRIBE <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></button>
                             <button class="menu-button"><i class="fa fa-bars" aria-hidden="true"></i></button>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
-      </header>
+    </header>
 
-      <main>
-          <div class="container page-main">
-              <div class="row">
-                  <div class="col-12 col-md-6 col-lg">
+    <main>
+        <div class="container page-main">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg">
                     <div class="block-title">
                         FEATURED STORIES
                     </div>
 
                     <div class="featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="story-category">
                                 <a href="#">U.S.</a>
                             </div>
@@ -145,13 +163,16 @@
                             <a href="#">Five Key Takeaways From Donald Trump's Thanksgiving Press Conference.</a>
                         </h3>
                         <div class="story-details">
-                            <p>The president drew closer to conceding the election to President-elect Joe Biden and announced Georgia rally plans.</p>
+                            <p>The president drew closer to conceding the election to President-elect Joe Biden and
+                                announced Georgia rally plans.</p>
                         </div>
                     </div>
 
                     <div class="featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="story-category">
                                 <a href="#">TECH & SCIENCE</a>
                             </div>
@@ -160,13 +181,16 @@
                             <a href="#">Five Key Takeaways From Donald Trump's Thanksgiving Press Conference.</a>
                         </h3>
                         <div class="story-details">
-                            <p>The president drew closer to conceding the election to President-elect Joe Biden and announced Georgia rally plans.</p>
+                            <p>The president drew closer to conceding the election to President-elect Joe Biden and
+                                announced Georgia rally plans.</p>
                         </div>
                     </div>
 
                     <div class="featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1677821/hassan-rouhani-donald-trump-iran-sanctions-election.jpg?w=397&h=265&q=90&f=2aa3580adc62a75a1a831e7d81ffc050" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677821/hassan-rouhani-donald-trump-iran-sanctions-election.jpg?w=397&h=265&q=90&f=2aa3580adc62a75a1a831e7d81ffc050"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="story-category">
                                 <a href="#">WORLD</a>
                             </div>
@@ -175,13 +199,16 @@
                             <a href="#">Five Key Takeaways From Donald Trump's Thanksgiving Press Conference.</a>
                         </h3>
                         <div class="story-details">
-                            <p>The president drew closer to conceding the election to President-elect Joe Biden and announced Georgia rally plans.</p>
+                            <p>The president drew closer to conceding the election to President-elect Joe Biden and
+                                announced Georgia rally plans.</p>
                         </div>
                     </div>
 
                     <div class="featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1677884/lax-los-angeles-airport-thanksgiving-travel-2020.jpg?w=397&h=265&q=90&f=7e3c401b76233a03a88f67561af28e18" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677884/lax-los-angeles-airport-thanksgiving-travel-2020.jpg?w=397&h=265&q=90&f=7e3c401b76233a03a88f67561af28e18"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="story-category">
                                 <a href="#">NEWS</a>
                             </div>
@@ -190,13 +217,16 @@
                             <a href="#">Five Key Takeaways From Donald Trump's Thanksgiving Press Conference.</a>
                         </h3>
                         <div class="story-details">
-                            <p>The president drew closer to conceding the election to President-elect Joe Biden and announced Georgia rally plans.</p>
+                            <p>The president drew closer to conceding the election to President-elect Joe Biden and
+                                announced Georgia rally plans.</p>
                         </div>
                     </div>
 
                     <div class="featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="story-category">
                                 <a href="#">U.S.</a>
                             </div>
@@ -205,13 +235,16 @@
                             <a href="#">Five Key Takeaways From Donald Trump's Thanksgiving Press Conference.</a>
                         </h3>
                         <div class="story-details">
-                            <p>The president drew closer to conceding the election to President-elect Joe Biden and announced Georgia rally plans.</p>
+                            <p>The president drew closer to conceding the election to President-elect Joe Biden and
+                                announced Georgia rally plans.</p>
                         </div>
                     </div>
 
                     <div class="featured-ads-card">
                         <div class="story-ads-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="ads-category">
                                 <a href="#">SPONSORED INSIGHT</a>
                             </div>
@@ -221,14 +254,17 @@
                                 <a href="#">Would You Like a Career That Will Make a Real Difference?</a>
                             </h3>
                             <div class="story-details">
-                                <p>Stop thinking about being a teacher and get started on your path to one of the most rewarding careers in the world. Find out where to get qualified.</p>
+                                <p>Stop thinking about being a teacher and get started on your path to one of the most
+                                    rewarding careers in the world. Find out where to get qualified.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="featured-ads-card">
                         <div class="story-ads-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="ads-category">
                                 <a href="#">SPONSORED INSIGHT</a>
                             </div>
@@ -238,14 +274,19 @@
                                 <a href="#">Why is an EQUIS Accreditation Important for a Business School?</a>
                             </h3>
                             <div class="story-details">
-                                <p>With over 15,000 business schools worldwide, it is increasingly difficult for prospective students, executives, corporate partners and other stakeholders to recognize a quality institution. That’s where an EQUIS Accreditation comes in. Find out more..</p>
+                                <p>With over 15,000 business schools worldwide, it is increasingly difficult for
+                                    prospective students, executives, corporate partners and other stakeholders to
+                                    recognize a quality institution. That’s where an EQUIS Accreditation comes in. Find
+                                    out more..</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="featured-ads-card">
                         <div class="story-ads-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="ads-category">
                                 <a href="#">SPONSORED INSIGHT</a>
                             </div>
@@ -255,14 +296,17 @@
                                 <a href="#">Which Schools Have the Best Healthcare Programs?</a>
                             </h3>
                             <div class="story-details">
-                                <p>If you are thinking about a career in Healthcare, you will want to start with the best qualifications from the top schools. Which ones are at the cutting edge?</p>
+                                <p>If you are thinking about a career in Healthcare, you will want to start with the
+                                    best qualifications from the top schools. Which ones are at the cutting edge?</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="featured-ads-card">
                         <div class="story-ads-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="ads-category">
                                 <a href="#">STEM</a>
                             </div>
@@ -272,14 +316,17 @@
                                 <a href="#">Leaders in Global Education 2020</a>
                             </h3>
                             <div class="story-details">
-                                <p>What does it take to be a leader in Global Education? What sets the best Universities apart from the others on the world stage? Find out more.</p>
+                                <p>What does it take to be a leader in Global Education? What sets the best Universities
+                                    apart from the others on the world stage? Find out more.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="featured-ads-card">
                         <div class="story-ads-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="ads-category">
                                 <a href="#">RANKINGS</a>
                             </div>
@@ -289,14 +336,17 @@
                                 <a href="#">Best in STEM 2021</a>
                             </h3>
                             <div class="story-details">
-                                <p>Meet the toymakers and brands who are lending a helping hand to science, technology, engineering and math (STEM) education.</p>
+                                <p>Meet the toymakers and brands who are lending a helping hand to science, technology,
+                                    engineering and math (STEM) education.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="featured-ads-card">
                         <div class="story-ads-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="ads-category">
                                 <a href="#">RANKINGS</a>
                             </div>
@@ -306,14 +356,17 @@
                                 <a href="#">America's Best Banks 2021</a>
                             </h3>
                             <div class="story-details">
-                                <p>Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+                                <p>Introducing Newsweek's first ranking of the financial institutions that best serve
+                                    their customers' needs in today's challenging times.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="featured-ads-card">
                         <div class="story-ads-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="ads-category">
                                 <a href="#">RANKINGS</a>
                             </div>
@@ -323,14 +376,15 @@
                                 <a href="#">World's Best Specialized Hospitals 2021</a>
                             </h3>
                             <div class="story-details">
-                                <p>In the first part of this special, we rank the best hospitals in cardiology, oncology and endocrinology.</p>
+                                <p>In the first part of this special, we rank the best hospitals in cardiology, oncology
+                                    and endocrinology.</p>
                             </div>
                         </div>
                     </div>
 
-                  </div>
+                </div>
 
-                  <div class="col-12 col-md-6 col-lg-5">
+                <div class="col-12 col-md-6 col-lg-5">
 
                     <div class="block-title">
                         TOP STORY
@@ -338,7 +392,9 @@
 
                     <div class="top-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1677954/iran.jpg?w=591&h=364&f=8be0fa0d375e332d5fd883acb1058828" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677954/iran.jpg?w=591&h=364&f=8be0fa0d375e332d5fd883acb1058828"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="story-category">
                                 <a href="#">NEWS</a>
                             </div>
@@ -347,18 +403,21 @@
                             <a href="#">Major Trouble for Biden Budget Nominee as GOP Considers Forgoing Hearings.</a>
                         </h3>
                         <div class="story-details">
-                            <p>As Senate Republicans characterize Neera Tanden as "radioactive" and urge Biden to withdraw her nomination for head of the White House budget office, key GOP lawmakers signal they might not hold confirmation hearings for her.</p>
+                            <p>As Senate Republicans characterize Neera Tanden as "radioactive" and urge Biden to
+                                withdraw her nomination for head of the White House budget office, key GOP lawmakers
+                                signal they might not hold confirmation hearings for her.</p>
                         </div>
                     </div>
 
                     <div class="block-title">
-                        MY TURN 
+                        MY TURN
                     </div>
-                    
+
                     <div class="row my-turn-holder">
                         <div class="col-4 my-turn-item">
                             <div class="my-turn-image-holder">
-                                <img src="https://d.newsweek.com/en/full/1677377/hostage-negotiator-police-fbi-negotiator.jpg?w=397&h=397&f=e9628ed46cefb7a0cf7ec13474ececb9" alt="my-turn-picture" class="my-turn-picture" title="My Turn Picture"/>
+                                <img src="https://d.newsweek.com/en/full/1677377/hostage-negotiator-police-fbi-negotiator.jpg?w=397&h=397&f=e9628ed46cefb7a0cf7ec13474ececb9"
+                                    alt="my-turn-picture" class="my-turn-picture" title="My Turn Picture" />
                             </div>
                             <a href="#">
                                 <h6 class="story-title-mini">
@@ -368,7 +427,8 @@
                         </div>
                         <div class="col-4 my-turn-item">
                             <div class="my-turn-image-holder">
-                                <img src="https://d.newsweek.com/en/full/1677377/hostage-negotiator-police-fbi-negotiator.jpg?w=397&h=397&f=e9628ed46cefb7a0cf7ec13474ececb9" alt="my-turn-picture" class="my-turn-picture" title="My Turn Picture" />
+                                <img src="https://d.newsweek.com/en/full/1677377/hostage-negotiator-police-fbi-negotiator.jpg?w=397&h=397&f=e9628ed46cefb7a0cf7ec13474ececb9"
+                                    alt="my-turn-picture" class="my-turn-picture" title="My Turn Picture" />
                             </div>
                             <a href="#">
                                 <h6 class="story-title-mini">
@@ -378,7 +438,8 @@
                         </div>
                         <div class="col-4 my-turn-item">
                             <div class="my-turn-image-holder">
-                                <img src="https://d.newsweek.com/en/full/1677377/hostage-negotiator-police-fbi-negotiator.jpg?w=397&h=397&f=e9628ed46cefb7a0cf7ec13474ececb9" alt="my-turn-picture" class="my-turn-picture" title="My Turn Picture"/>
+                                <img src="https://d.newsweek.com/en/full/1677377/hostage-negotiator-police-fbi-negotiator.jpg?w=397&h=397&f=e9628ed46cefb7a0cf7ec13474ececb9"
+                                    alt="my-turn-picture" class="my-turn-picture" title="My Turn Picture" />
                             </div>
                             <a href="#">
                                 <h6 class="story-title-mini">
@@ -391,11 +452,12 @@
                     <div class="block-title">
                         CULTURE AND TRAVEL
                     </div>
-                    
+
                     <div class="row my-turn-holder">
                         <div class="col-4 my-turn-item">
                             <div class="my-turn-image-holder">
-                                <img src="https://d.newsweek.com/en/full/1679479/socks-clinton.jpg?w=397&h=397&f=f79ad69cfe20e95d75edcd4a9f8f7e6f" alt="my-turn-picture" class="my-turn-picture" title="My Turn Picture"/>
+                                <img src="https://d.newsweek.com/en/full/1679479/socks-clinton.jpg?w=397&h=397&f=f79ad69cfe20e95d75edcd4a9f8f7e6f"
+                                    alt="my-turn-picture" class="my-turn-picture" title="My Turn Picture" />
                                 <div class="culture-category">
                                     <a href="#">TELEVISION</a>
                                 </div>
@@ -408,7 +470,8 @@
                         </div>
                         <div class="col-4 my-turn-item">
                             <div class="my-turn-image-holder">
-                                <img src="https://d.newsweek.com/en/full/1634390/5-game-thrones-hardhome.jpg?w=397&h=397&f=7a39a424594c5c7c3904dce5497d3780" alt="my-turn-picture" class="my-turn-picture" title="My Turn Picture" />
+                                <img src="https://d.newsweek.com/en/full/1634390/5-game-thrones-hardhome.jpg?w=397&h=397&f=7a39a424594c5c7c3904dce5497d3780"
+                                    alt="my-turn-picture" class="my-turn-picture" title="My Turn Picture" />
                                 <div class="culture-category">
                                     <a href="#">PETS</a>
                                 </div>
@@ -421,7 +484,8 @@
                         </div>
                         <div class="col-4 my-turn-item">
                             <div class="my-turn-image-holder">
-                                <img src="https://d.newsweek.com/en/full/1674794/cul-map-holiday-food-tang-yuan.jpg?w=397&h=397&l=62&t=38&f=409712d2ec4b3c7a84479a6a5fa03ab7" alt="my-turn-picture" class="my-turn-picture" title="My Turn Picture" />
+                                <img src="https://d.newsweek.com/en/full/1674794/cul-map-holiday-food-tang-yuan.jpg?w=397&h=397&l=62&t=38&f=409712d2ec4b3c7a84479a6a5fa03ab7"
+                                    alt="my-turn-picture" class="my-turn-picture" title="My Turn Picture" />
                                 <div class="culture-category">
                                     <a href="#">FOOD</a>
                                 </div>
@@ -441,179 +505,228 @@
                     <div class="row">
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">Trump's disputed the results of the election and will have five days to contest the election results.</div>
+                            <div class="more-story-summary">Trump's disputed the results of the election and will have
+                                five days to contest the election results.</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">The Democrat has spoken of being a president for all Americans, while encouraging his supporters and President Trump's to give each other a chance.</div>
+                            <div class="more-story-summary">The Democrat has spoken of being a president for all
+                                Americans, while encouraging his supporters and President Trump's to give each other a
+                                chance.</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">Trump's disputed the results of the election and will have five days to contest the election results.</div>
+                            <div class="more-story-summary">Trump's disputed the results of the election and will have
+                                five days to contest the election results.</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">The Democrat has spoken of being a president for all Americans, while encouraging his supporters and President Trump's to give each other a chance. Arizona Certifies Election Results as Trump Campaign Disputes Validity</div>
+                            <div class="more-story-summary">The Democrat has spoken of being a president for all
+                                Americans, while encouraging his supporters and President Trump's to give each other a
+                                chance. Arizona Certifies Election Results as Trump Campaign Disputes Validity</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">Trump's disputed the results of the election and will have five days to contest the election results.</div>
+                            <div class="more-story-summary">Trump's disputed the results of the election and will have
+                                five days to contest the election results.</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">While appearing on MSNBC's "Politics Nation," Ossoff said, "with respect to President Trump, I mean, is he bringing stimulus for families? Is he bringing relief for small businesses? Or is he just going to come down here and spread COVID-19?". Arizona Certifies Election Results as Trump Campaign Disputes Validity</div>
+                            <div class="more-story-summary">While appearing on MSNBC's "Politics Nation," Ossoff said,
+                                "with respect to President Trump, I mean, is he bringing stimulus for families? Is he
+                                bringing relief for small businesses? Or is he just going to come down here and spread
+                                COVID-19?". Arizona Certifies Election Results as Trump Campaign Disputes Validity</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">The Democrat has spoken of being a president for all Americans, while encouraging his supporters and President Trump's to give each other a chance.</div>
+                            <div class="more-story-summary">The Democrat has spoken of being a president for all
+                                Americans, while encouraging his supporters and President Trump's to give each other a
+                                chance.</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">While appearing on MSNBC's "Politics Nation," Ossoff said, "with respect to President Trump, I mean, is he bringing stimulus for families? Is he bringing relief for small businesses? Or is he just going to come down here and spread COVID-19?".</div>
+                            <div class="more-story-summary">While appearing on MSNBC's "Politics Nation," Ossoff said,
+                                "with respect to President Trump, I mean, is he bringing stimulus for families? Is he
+                                bringing relief for small businesses? Or is he just going to come down here and spread
+                                COVID-19?".</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">Trump's disputed the results of the election and will have five days to contest the election results.</div>
+                            <div class="more-story-summary">Trump's disputed the results of the election and will have
+                                five days to contest the election results.</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">While appearing on MSNBC's "Politics Nation," Ossoff said, "with respect to President Trump, I mean, is he bringing stimulus for families? Is he bringing relief for small businesses? Or is he just going to come down here and spread COVID-19?"</div>
+                            <div class="more-story-summary">While appearing on MSNBC's "Politics Nation," Ossoff said,
+                                "with respect to President Trump, I mean, is he bringing stimulus for families? Is he
+                                bringing relief for small businesses? Or is he just going to come down here and spread
+                                COVID-19?"</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">Trump's disputed the results of the election and will have five days to contest the election results.</div>
+                            <div class="more-story-summary">Trump's disputed the results of the election and will have
+                                five days to contest the election results.</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">While appearing on MSNBC's "Politics Nation," Ossoff said, "with respect to President Trump, I mean, is he bringing stimulus for families? Is he bringing relief for small businesses? Or is he just going to come down here and spread COVID-19?"</div>
+                            <div class="more-story-summary">While appearing on MSNBC's "Politics Nation," Ossoff said,
+                                "with respect to President Trump, I mean, is he bringing stimulus for families? Is he
+                                bringing relief for small businesses? Or is he just going to come down here and spread
+                                COVID-19?"</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">Trump's disputed the results of the election and will have five days to contest the election results.</div>
+                            <div class="more-story-summary">Trump's disputed the results of the election and will have
+                                five days to contest the election results.</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">While appearing on MSNBC's "Politics Nation," Ossoff said, "with respect to President Trump, I mean, is he bringing stimulus for families? Is he bringing relief for small businesses? Or is he just going to come down here and spread COVID-19?"</div>
+                            <div class="more-story-summary">While appearing on MSNBC's "Politics Nation," Ossoff said,
+                                "with respect to President Trump, I mean, is he bringing stimulus for families? Is he
+                                bringing relief for small businesses? Or is he just going to come down here and spread
+                                COVID-19?"</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">Trump's disputed the results of the election and will have five days to contest the election results.</div>
+                            <div class="more-story-summary">Trump's disputed the results of the election and will have
+                                five days to contest the election results.</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">While appearing on MSNBC's "Politics Nation," Ossoff said, "with respect to President Trump, I mean, is he bringing stimulus for families? Is he bringing relief for small businesses? Or is he just going to come down here and spread COVID-19?"</div>
+                            <div class="more-story-summary">While appearing on MSNBC's "Politics Nation," Ossoff said,
+                                "with respect to President Trump, I mean, is he bringing stimulus for families? Is he
+                                bringing relief for small businesses? Or is he just going to come down here and spread
+                                COVID-19?"</div>
                         </article>
 
                         <article class="more-story-article">
                             <div class="article-image-container">
-                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379" alt="Article Image" class="article-image" />
+                                <img src="https://d.newsweek.com/en/full/1678579/joe-biden-arizona-election.jpg?w=95&h=95&f=86ee2876b0dd60b289de1c32165d9379"
+                                    alt="Article Image" class="article-image" />
                             </div>
                             <h4 class="article-image-title">
                                 <a href="#">Arizona Certifies Election Results as Trump Campaign Disputes Validity</a>
                             </h4>
-                            <div class="more-story-summary">Trump's disputed the results of the election and will have five days to contest the election results.</div>
+                            <div class="more-story-summary">Trump's disputed the results of the election and will have
+                                five days to contest the election results.</div>
                         </article>
                     </div>
 
 
-                  </div>
+                </div>
 
-                  <div class="col-12 col-md-12 col-lg">
+                <div class="col-12 col-md-12 col-lg">
                     <div class="block-title">
                         THE DEBATE
                     </div>
@@ -623,7 +736,8 @@
                         <div class="row">
                             <div class="col-12 opinion-container" id="opinion1">
                                 <div class="opinion-image">
-                                    <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="Author" />
+                                    <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                                        alt="Author" />
                                 </div>
                                 <div class="opinion-desc">
                                     <h6 class="opinion-text">
@@ -641,7 +755,8 @@
                                     <div class="author">BY SPENCER KLAVAN</div>
                                 </div>
                                 <div class="opinion-image">
-                                    <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="Author" />
+                                    <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                                        alt="Author" />
                                 </div>
                             </div>
                         </div>
@@ -658,7 +773,8 @@
                             <div class="row">
                                 <div class="col-12 opinion-container">
                                     <div class="opinion-image">
-                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="Author" />
+                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                                            alt="Author" />
                                     </div>
                                     <div class="opinion-desc">
                                         <h6 class="opinion-text">
@@ -669,12 +785,13 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="opinion">
                             <div class="row">
                                 <div class="col-12 opinion-container">
                                     <div class="opinion-image">
-                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="Author" />
+                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                                            alt="Author" />
                                     </div>
                                     <div class="opinion-desc">
                                         <h6 class="opinion-text">
@@ -685,12 +802,13 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="opinion">
                             <div class="row">
                                 <div class="col-12 opinion-container">
                                     <div class="opinion-image">
-                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="Author" />
+                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                                            alt="Author" />
                                     </div>
                                     <div class="opinion-desc">
                                         <h6 class="opinion-text">
@@ -701,12 +819,13 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="opinion">
                             <div class="row">
                                 <div class="col-12 opinion-container">
                                     <div class="opinion-image">
-                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="Author" />
+                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                                            alt="Author" />
                                     </div>
                                     <div class="opinion-desc">
                                         <h6 class="opinion-text">
@@ -717,12 +836,13 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="opinion">
                             <div class="row">
                                 <div class="col-12 opinion-container">
                                     <div class="opinion-image">
-                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="Author" />
+                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                                            alt="Author" />
                                     </div>
                                     <div class="opinion-desc">
                                         <h6 class="opinion-text">
@@ -733,12 +853,13 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="opinion">
                             <div class="row">
                                 <div class="col-12 opinion-container">
                                     <div class="opinion-image">
-                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="Author" />
+                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                                            alt="Author" />
                                     </div>
                                     <div class="opinion-desc">
                                         <h6 class="opinion-text">
@@ -749,12 +870,13 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="opinion">
                             <div class="row">
                                 <div class="col-12 opinion-container">
                                     <div class="opinion-image">
-                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="Author" />
+                                        <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                                            alt="Author" />
                                     </div>
                                     <div class="opinion-desc">
                                         <h6 class="opinion-text">
@@ -766,11 +888,13 @@
                             </div>
                         </div>
                     </div>
-                    
+
 
                     <div class="featured-ads-card">
                         <div class="story-ads-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="ads-category">
                                 <a href="#">SPONSORED INSIGHT</a>
                             </div>
@@ -780,14 +904,17 @@
                                 <a href="#">Would You Like a Career That Will Make a Real Difference?</a>
                             </h3>
                             <div class="story-details">
-                                <p>Stop thinking about being a teacher and get started on your path to one of the most rewarding careers in the world. Find out where to get qualified.</p>
+                                <p>Stop thinking about being a teacher and get started on your path to one of the most
+                                    rewarding careers in the world. Find out where to get qualified.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="featured-ads-card">
                         <div class="story-ads-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="ads-category">
                                 <a href="#">SPONSORED INSIGHT</a>
                             </div>
@@ -797,14 +924,17 @@
                                 <a href="#">Would You Like a Career That Will Make a Real Difference?</a>
                             </h3>
                             <div class="story-details">
-                                <p>Stop thinking about being a teacher and get started on your path to one of the most rewarding careers in the world. Find out where to get qualified.</p>
+                                <p>Stop thinking about being a teacher and get started on your path to one of the most
+                                    rewarding careers in the world. Find out where to get qualified.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="featured-ads-card">
                         <div class="story-ads-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="ads-category">
                                 <a href="#">SPONSORED INSIGHT</a>
                             </div>
@@ -814,14 +944,17 @@
                                 <a href="#">Would You Like a Career That Will Make a Real Difference?</a>
                             </h3>
                             <div class="story-details">
-                                <p>Stop thinking about being a teacher and get started on your path to one of the most rewarding careers in the world. Find out where to get qualified.</p>
+                                <p>Stop thinking about being a teacher and get started on your path to one of the most
+                                    rewarding careers in the world. Find out where to get qualified.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="featured-ads-card">
                         <div class="story-ads-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="ads-category">
                                 <a href="#">SPONSORED INSIGHT</a>
                             </div>
@@ -831,14 +964,17 @@
                                 <a href="#">Would You Like a Career That Will Make a Real Difference?</a>
                             </h3>
                             <div class="story-details">
-                                <p>Stop thinking about being a teacher and get started on your path to one of the most rewarding careers in the world. Find out where to get qualified.</p>
+                                <p>Stop thinking about being a teacher and get started on your path to one of the most
+                                    rewarding careers in the world. Find out where to get qualified.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="featured-ads-card">
                         <div class="story-ads-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="ads-category">
                                 <a href="#">SPONSORED INSIGHT</a>
                             </div>
@@ -848,14 +984,17 @@
                                 <a href="#">Would You Like a Career That Will Make a Real Difference?</a>
                             </h3>
                             <div class="story-details">
-                                <p>Stop thinking about being a teacher and get started on your path to one of the most rewarding careers in the world. Find out where to get qualified.</p>
+                                <p>Stop thinking about being a teacher and get started on your path to one of the most
+                                    rewarding careers in the world. Find out where to get qualified.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="featured-ads-card">
                         <div class="story-ads-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="ads-category">
                                 <a href="#">SPONSORED INSIGHT</a>
                             </div>
@@ -865,14 +1004,17 @@
                                 <a href="#">Would You Like a Career That Will Make a Real Difference?</a>
                             </h3>
                             <div class="story-details">
-                                <p>Stop thinking about being a teacher and get started on your path to one of the most rewarding careers in the world. Find out where to get qualified.</p>
+                                <p>Stop thinking about being a teacher and get started on your path to one of the most
+                                    rewarding careers in the world. Find out where to get qualified.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="featured-ads-card">
                         <div class="story-ads-holder">
-                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1677815/donald-trump-thanksgiving-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=e7937f085e0c27ad5110eef809497d60"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="ads-category">
                                 <a href="#">SPONSORED INSIGHT</a>
                             </div>
@@ -882,122 +1024,143 @@
                                 <a href="#">Would You Like a Career That Will Make a Real Difference?</a>
                             </h3>
                             <div class="story-details">
-                                <p>Stop thinking about being a teacher and get started on your path to one of the most rewarding careers in the world. Find out where to get qualified.</p>
+                                <p>Stop thinking about being a teacher and get started on your path to one of the most
+                                    rewarding careers in the world. Find out where to get qualified.</p>
                             </div>
                         </div>
                     </div>
-                  </div>
-              </div>
+                </div>
+            </div>
 
-              <div>
-                  <div class="editors-pick-title">
-                    <img src="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png" alt="IN THE MAGAZINE" /> <h5>IN THE MAGAZINE</h5>
-                  </div>
-                  <div class="row editors-pick-section">
-                    <div class="col-12 col-sm-3 featured-story-card">
-                        <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1674257/cover-fe-vaccine-moderna.jpg?w=466&h=311&l=49&t=48&q=90&f=b4199882348a460299d282c96d719a51" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
-                        </div>
-                        <div class="editors-pick-category">
-                            <span class="first-category">COVER</span>
-                            <span class="second-category">HEALTH</span>
-                        </div>
-                        <h6 class="story-title-mini">
-                            Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics Embrace Them.
-                        </h6>
-                    </div>
-
-                    <div class="col-12 col-sm-3 featured-story-card">
-                        <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1675767/per-prisoners-history-01-450090369jpg.jpg?w=466&h=311&l=48&t=64&q=90&f=c502a88a280f529b973548b54bda0f49" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
-                        </div>
-                        <div class="editors-pick-category">
-                            <span class="first-category">COVER</span>
-                            <span class="second-category">HEALTH</span>
-                        </div>
-                        <h6 class="story-title-mini">
-                            Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics Embrace Them.
-                        </h6>
-                    </div>
-
-                    <div class="col-12 col-sm-3 featured-story-card">
-                        <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1674257/cover-fe-vaccine-moderna.jpg?w=466&h=311&l=49&t=48&q=90&f=b4199882348a460299d282c96d719a51" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
-                        </div>
-                        <div class="editors-pick-category">
-                            <span class="first-category">PERISCOPE</span>
-                            <span class="second-category">HEALTH</span>
-                        </div>
-                        <h6 class="story-title-mini">
-                            Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics Embrace Them.
-                        </h6>
-                    </div>
-
-                    <div class="col-12 col-sm-3 featured-story-card">
-                        <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1675779/per-prisoners-history-04.jpg?w=466&h=311&l=60&t=59&q=90&f=55acc462b556fd64fce7064636317f47" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
-                        </div>
-                        <div class="editors-pick-category">
-                            <span class="first-category">PERISCOPE</span>
-                            <span class="second-category">HEALTH</span>
-                        </div>
-                        <h6 class="story-title-mini">
-                            Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics Embrace Them.
-                        </h6>
-                    </div>
-                  
-                    <div class="col-12 col-sm-3 featured-story-card">
-                        <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1674257/cover-fe-vaccine-moderna.jpg?w=466&h=311&l=49&t=48&q=90&f=b4199882348a460299d282c96d719a51" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
-                        </div>
-                        <div class="editors-pick-category">
-                            <span class="first-category">COVER</span>
-                            <span class="second-category">HEALTH</span>
-                        </div>
-                        <h6 class="story-title-mini">
-                            Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics Embrace Them.
-                        </h6>
-                    </div>
-
-                    <div class="col-12 col-sm-3 featured-story-card">
-                        <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1676922/christian-serratos-feels-pressure-portraying-selena.jpg?w=466&h=311&q=90&f=4d0453f2b4fc906121673befc3e7b6b5" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
-                        </div>
-                        <div class="editors-pick-category">
-                            <span class="first-category">COVER</span>
-                            <span class="second-category">HEALTH</span>
-                        </div>
-                        <h6 class="story-title-mini">
-                            Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics Embrace Them.
-                        </h6>
-                    </div>
-
-                    <div class="col-12 col-sm-3 featured-story-card">
-                        <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1674794/cul-map-holiday-food-tang-yuan.jpg?w=466&h=311&l=62&t=38&q=90&f=258feff5c6f4dc315f1d67e58f8c5ba3" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
-                        </div>
-                        <div class="editors-pick-category">
-                            <span class="first-category">PERISCOPE</span>
-                            <span class="second-category">HEALTH</span>
-                        </div>
-                        <h6 class="story-title-mini">
-                            Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics Embrace Them.
-                        </h6>
-                    </div>
-
-                  </div>
-              </div>
-
-              <div>
+            <div>
                 <div class="editors-pick-title">
-                    <img src="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png" alt="IN THE MAGAZINE" /> <h5>EDITOR'S PICK</h5>
+                    <img src="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png"
+                        alt="IN THE MAGAZINE" />
+                    <h5>IN THE MAGAZINE</h5>
+                </div>
+                <div class="row editors-pick-section">
+                    <div class="col-12 col-sm-3 featured-story-card">
+                        <div class="story-image-holder">
+                            <img src="https://d.newsweek.com/en/full/1674257/cover-fe-vaccine-moderna.jpg?w=466&h=311&l=49&t=48&q=90&f=b4199882348a460299d282c96d719a51"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
+                        </div>
+                        <div class="editors-pick-category">
+                            <span class="first-category">COVER</span>
+                            <span class="second-category">HEALTH</span>
+                        </div>
+                        <h6 class="story-title-mini">
+                            Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics Embrace Them.
+                        </h6>
+                    </div>
+
+                    <div class="col-12 col-sm-3 featured-story-card">
+                        <div class="story-image-holder">
+                            <img src="https://d.newsweek.com/en/full/1675767/per-prisoners-history-01-450090369jpg.jpg?w=466&h=311&l=48&t=64&q=90&f=c502a88a280f529b973548b54bda0f49"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
+                        </div>
+                        <div class="editors-pick-category">
+                            <span class="first-category">COVER</span>
+                            <span class="second-category">HEALTH</span>
+                        </div>
+                        <h6 class="story-title-mini">
+                            Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics Embrace Them.
+                        </h6>
+                    </div>
+
+                    <div class="col-12 col-sm-3 featured-story-card">
+                        <div class="story-image-holder">
+                            <img src="https://d.newsweek.com/en/full/1674257/cover-fe-vaccine-moderna.jpg?w=466&h=311&l=49&t=48&q=90&f=b4199882348a460299d282c96d719a51"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
+                        </div>
+                        <div class="editors-pick-category">
+                            <span class="first-category">PERISCOPE</span>
+                            <span class="second-category">HEALTH</span>
+                        </div>
+                        <h6 class="story-title-mini">
+                            Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics Embrace Them.
+                        </h6>
+                    </div>
+
+                    <div class="col-12 col-sm-3 featured-story-card">
+                        <div class="story-image-holder">
+                            <img src="https://d.newsweek.com/en/full/1675779/per-prisoners-history-04.jpg?w=466&h=311&l=60&t=59&q=90&f=55acc462b556fd64fce7064636317f47"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
+                        </div>
+                        <div class="editors-pick-category">
+                            <span class="first-category">PERISCOPE</span>
+                            <span class="second-category">HEALTH</span>
+                        </div>
+                        <h6 class="story-title-mini">
+                            Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics Embrace Them.
+                        </h6>
+                    </div>
+
+                    <div class="col-12 col-sm-3 featured-story-card">
+                        <div class="story-image-holder">
+                            <img src="https://d.newsweek.com/en/full/1674257/cover-fe-vaccine-moderna.jpg?w=466&h=311&l=49&t=48&q=90&f=b4199882348a460299d282c96d719a51"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
+                        </div>
+                        <div class="editors-pick-category">
+                            <span class="first-category">COVER</span>
+                            <span class="second-category">HEALTH</span>
+                        </div>
+                        <h6 class="story-title-mini">
+                            Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics Embrace Them.
+                        </h6>
+                    </div>
+
+                    <div class="col-12 col-sm-3 featured-story-card">
+                        <div class="story-image-holder">
+                            <img src="https://d.newsweek.com/en/full/1676922/christian-serratos-feels-pressure-portraying-selena.jpg?w=466&h=311&q=90&f=4d0453f2b4fc906121673befc3e7b6b5"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
+                        </div>
+                        <div class="editors-pick-category">
+                            <span class="first-category">COVER</span>
+                            <span class="second-category">HEALTH</span>
+                        </div>
+                        <h6 class="story-title-mini">
+                            Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics Embrace Them.
+                        </h6>
+                    </div>
+
+                    <div class="col-12 col-sm-3 featured-story-card">
+                        <div class="story-image-holder">
+                            <img src="https://d.newsweek.com/en/full/1674794/cul-map-holiday-food-tang-yuan.jpg?w=466&h=311&l=62&t=38&q=90&f=258feff5c6f4dc315f1d67e58f8c5ba3"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
+                        </div>
+                        <div class="editors-pick-category">
+                            <span class="first-category">PERISCOPE</span>
+                            <span class="second-category">HEALTH</span>
+                        </div>
+                        <h6 class="story-title-mini">
+                            Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics Embrace Them.
+                        </h6>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="editors-pick-title">
+                    <img src="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png"
+                        alt="IN THE MAGAZINE" />
+                    <h5>EDITOR'S PICK</h5>
                 </div>
 
                 <div class="row editors-pick-section">
 
                     <div class="col-12 col-sm-6 col-3 featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1678311/trump-speaks-diplomatic-room.jpg?w=397&h=295&f=a62f1676a8fe69532db51a71d028d609" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1678311/trump-speaks-diplomatic-room.jpg?w=397&h=295&f=a62f1676a8fe69532db51a71d028d609"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="story-category">
                                 <a href="#">POLITICS</a>
                             </div>
@@ -1006,13 +1169,16 @@
                             <a href="#">Trump Says U.S. Election Security Is a 'Joke' but Watchdogs Rate It Highly.</a>
                         </h3>
                         <div class="story-details">
-                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure in American history.</p>
+                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure
+                                in American history.</p>
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-3 featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1678538/kayleigh-mcenany.jpg?w=397&h=295&f=9b5450fe396c53ca3b3098dceb226e3d" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1678538/kayleigh-mcenany.jpg?w=397&h=295&f=9b5450fe396c53ca3b3098dceb226e3d"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="story-category">
                                 <a href="#">POLITICS</a>
                             </div>
@@ -1021,13 +1187,16 @@
                             <a href="#">Fact Check: Does Trump Have an All-Female Senior White House Press Team?</a>
                         </h3>
                         <div class="story-details">
-                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure in American history.</p>
+                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure
+                                in American history.</p>
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-3 featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1678311/trump-speaks-diplomatic-room.jpg?w=397&h=295&f=a62f1676a8fe69532db51a71d028d609" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1678311/trump-speaks-diplomatic-room.jpg?w=397&h=295&f=a62f1676a8fe69532db51a71d028d609"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="story-category">
                                 <a href="#">POLITICS</a>
                             </div>
@@ -1036,14 +1205,16 @@
                             <a href="#">Could Faithless Electors Flip the Presidential Election for Trump?</a>
                         </h3>
                         <div class="story-details">
-                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure in American history.</p>
+                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure
+                                in American history.</p>
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-3 featured-story-card">
                         <div class="story-image-holder">
                             <img src="https://d.newsweek.com/en/full/1678646/mitch-mcconnell-senate-luncheon-november-2020.jpg?w=397&h=295&f=917bd4d06110aa3ea8257705bba13ec6
-                            " alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            " alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="story-category">
                                 <a href="#">POLITICS</a>
                             </div>
@@ -1052,13 +1223,16 @@
                             <a href="#">Could Faithless Electors Flip the Presidential Election for Trump?</a>
                         </h3>
                         <div class="story-details">
-                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure in American history.</p>
+                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure
+                                in American history.</p>
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-3 featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1678311/trump-speaks-diplomatic-room.jpg?w=397&h=295&f=a62f1676a8fe69532db51a71d028d609" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1678311/trump-speaks-diplomatic-room.jpg?w=397&h=295&f=a62f1676a8fe69532db51a71d028d609"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="story-category">
                                 <a href="#">POLITICS</a>
                             </div>
@@ -1067,13 +1241,16 @@
                             <a href="#">Trump Says U.S. Election Security Is a 'Joke' but Watchdogs Rate It Highly.</a>
                         </h3>
                         <div class="story-details">
-                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure in American history.</p>
+                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure
+                                in American history.</p>
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-3 featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1678538/kayleigh-mcenany.jpg?w=397&h=295&f=9b5450fe396c53ca3b3098dceb226e3d" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1678538/kayleigh-mcenany.jpg?w=397&h=295&f=9b5450fe396c53ca3b3098dceb226e3d"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="story-category">
                                 <a href="#">POLITICS</a>
                             </div>
@@ -1082,13 +1259,16 @@
                             <a href="#">Fact Check: Does Trump Have an All-Female Senior White House Press Team?</a>
                         </h3>
                         <div class="story-details">
-                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure in American history.</p>
+                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure
+                                in American history.</p>
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-3 featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1678311/trump-speaks-diplomatic-room.jpg?w=397&h=295&f=a62f1676a8fe69532db51a71d028d609" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1678311/trump-speaks-diplomatic-room.jpg?w=397&h=295&f=a62f1676a8fe69532db51a71d028d609"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="story-category">
                                 <a href="#">POLITICS</a>
                             </div>
@@ -1097,14 +1277,16 @@
                             <a href="#">Could Faithless Electors Flip the Presidential Election for Trump?</a>
                         </h3>
                         <div class="story-details">
-                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure in American history.</p>
+                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure
+                                in American history.</p>
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-3 featured-story-card">
                         <div class="story-image-holder">
                             <img src="https://d.newsweek.com/en/full/1678646/mitch-mcconnell-senate-luncheon-november-2020.jpg?w=397&h=295&f=917bd4d06110aa3ea8257705bba13ec6
-                            " alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            " alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                             <div class="story-category">
                                 <a href="#">POLITICS</a>
                             </div>
@@ -1113,14 +1295,15 @@
                             <a href="#">Could Faithless Electors Flip the Presidential Election for Trump?</a>
                         </h3>
                         <div class="story-details">
-                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure in American history.</p>
+                            <p>The Department of Homeland Security concluded that the 2020 election was the "most secure
+                                in American history.</p>
                         </div>
                     </div>
 
                 </div>
-              </div>
+            </div>
 
-              <div>
+            <div>
                 <div class="bottom-section-title">
                     <h6>IN THE MAGAZINE</h6>
                 </div>
@@ -1128,7 +1311,9 @@
                 <div class="row bottom-section-news">
                     <div class="col-12 col-sm-4 featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1679088/adam-silver-nba.jpg?w=397&h=265&f=49ddca7edab47d1dbcb6cff5f6de6d1a" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1679088/adam-silver-nba.jpg?w=397&h=265&f=49ddca7edab47d1dbcb6cff5f6de6d1a"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                         </div>
                         <h3 class="story-title">
                             <a href="#">'No Data' to Suggest NBA's Support for BLM Hit League's TV Ratings.</a>
@@ -1137,7 +1322,9 @@
 
                     <div class="col-12 col-sm-4 featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1678960/philadelphia-eagles-carson-wentz.jpg?w=397&h=265&f=cd740b9e07f07eaf53700821cc1468c4" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1678960/philadelphia-eagles-carson-wentz.jpg?w=397&h=265&f=cd740b9e07f07eaf53700821cc1468c4"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                         </div>
                         <h3 class="story-title">
                             <a href="#">Should Eagles Drop Carson Wentz and Give Jalen Hurts a Shot at QB?</a>
@@ -1147,7 +1334,8 @@
                     <div class="col-12 col-sm-4">
                         <div class="col-12 side-news-container">
                             <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
                             </div>
                             <div class="opinion-desc">
                                 <h6 class="opinion-text">
@@ -1157,7 +1345,8 @@
                         </div>
                         <div class="col-12 side-news-container">
                             <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
                             </div>
                             <div class="opinion-desc">
                                 <h6 class="opinion-text">
@@ -1167,60 +1356,8 @@
                         </div>
                         <div class="col-12 side-news-container">
                             <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
-                            </div>
-                            <div class="opinion-desc">
-                                <h6 class="opinion-text"> 
-                                    The Dangerous Temptation of 'Back to Normal'
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row bottom-section-news">
-                    <div class="col-12 col-sm-4 featured-story-card">
-                        <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1679088/adam-silver-nba.jpg?w=397&h=265&f=49ddca7edab47d1dbcb6cff5f6de6d1a" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
-                        </div>
-                        <h3 class="story-title">
-                            <a href="#">'No Data' to Suggest NBA's Support for BLM Hit League's TV Ratings.</a>
-                        </h3>
-                    </div>
-
-                    <div class="col-12 col-sm-4 featured-story-card">
-                        <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1678960/philadelphia-eagles-carson-wentz.jpg?w=397&h=265&f=cd740b9e07f07eaf53700821cc1468c4" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
-                        </div>
-                        <h3 class="story-title">
-                            <a href="#">Should Eagles Drop Carson Wentz and Give Jalen Hurts a Shot at QB?</a>
-                        </h3>
-                    </div>
-
-                    <div class="col-12 col-sm-4">
-                        <div class="col-12 side-news-container">
-                            <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
-                            </div>
-                            <div class="opinion-desc">
-                                <h6 class="opinion-text">
-                                    The Dangerous Temptation of 'Back to Normal'
-                                </h6>
-                            </div>
-                        </div>
-                        <div class="col-12 side-news-container">
-                            <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
-                            </div>
-                            <div class="opinion-desc">
-                                <h6 class="opinion-text">
-                                    The Dangerous Temptation of 'Back to Normal'
-                                </h6>
-                            </div>
-                        </div>
-                        <div class="col-12 side-news-container">
-                            <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
                             </div>
                             <div class="opinion-desc">
                                 <h6 class="opinion-text">
@@ -1234,7 +1371,9 @@
                 <div class="row bottom-section-news">
                     <div class="col-12 col-sm-4 featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1679088/adam-silver-nba.jpg?w=397&h=265&f=49ddca7edab47d1dbcb6cff5f6de6d1a" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1679088/adam-silver-nba.jpg?w=397&h=265&f=49ddca7edab47d1dbcb6cff5f6de6d1a"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                         </div>
                         <h3 class="story-title">
                             <a href="#">'No Data' to Suggest NBA's Support for BLM Hit League's TV Ratings.</a>
@@ -1243,7 +1382,9 @@
 
                     <div class="col-12 col-sm-4 featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1678960/philadelphia-eagles-carson-wentz.jpg?w=397&h=265&f=cd740b9e07f07eaf53700821cc1468c4" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1678960/philadelphia-eagles-carson-wentz.jpg?w=397&h=265&f=cd740b9e07f07eaf53700821cc1468c4"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                         </div>
                         <h3 class="story-title">
                             <a href="#">Should Eagles Drop Carson Wentz and Give Jalen Hurts a Shot at QB?</a>
@@ -1253,7 +1394,8 @@
                     <div class="col-12 col-sm-4">
                         <div class="col-12 side-news-container">
                             <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
                             </div>
                             <div class="opinion-desc">
                                 <h6 class="opinion-text">
@@ -1263,7 +1405,8 @@
                         </div>
                         <div class="col-12 side-news-container">
                             <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
                             </div>
                             <div class="opinion-desc">
                                 <h6 class="opinion-text">
@@ -1273,7 +1416,8 @@
                         </div>
                         <div class="col-12 side-news-container">
                             <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
                             </div>
                             <div class="opinion-desc">
                                 <h6 class="opinion-text">
@@ -1287,7 +1431,9 @@
                 <div class="row bottom-section-news">
                     <div class="col-12 col-sm-4 featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1679088/adam-silver-nba.jpg?w=397&h=265&f=49ddca7edab47d1dbcb6cff5f6de6d1a" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1679088/adam-silver-nba.jpg?w=397&h=265&f=49ddca7edab47d1dbcb6cff5f6de6d1a"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                         </div>
                         <h3 class="story-title">
                             <a href="#">'No Data' to Suggest NBA's Support for BLM Hit League's TV Ratings.</a>
@@ -1296,7 +1442,9 @@
 
                     <div class="col-12 col-sm-4 featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1678960/philadelphia-eagles-carson-wentz.jpg?w=397&h=265&f=cd740b9e07f07eaf53700821cc1468c4" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1678960/philadelphia-eagles-carson-wentz.jpg?w=397&h=265&f=cd740b9e07f07eaf53700821cc1468c4"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                         </div>
                         <h3 class="story-title">
                             <a href="#">Should Eagles Drop Carson Wentz and Give Jalen Hurts a Shot at QB?</a>
@@ -1306,7 +1454,8 @@
                     <div class="col-12 col-sm-4">
                         <div class="col-12 side-news-container">
                             <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
                             </div>
                             <div class="opinion-desc">
                                 <h6 class="opinion-text">
@@ -1316,7 +1465,8 @@
                         </div>
                         <div class="col-12 side-news-container">
                             <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
                             </div>
                             <div class="opinion-desc">
                                 <h6 class="opinion-text">
@@ -1326,59 +1476,8 @@
                         </div>
                         <div class="col-12 side-news-container">
                             <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
-                            </div>
-                            <div class="opinion-desc">
-                                <h6 class="opinion-text">
-                                    The Dangerous Temptation of 'Back to Normal'
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row bottom-section-news">
-                    <div class="col-12 col-sm-4 featured-story-card">
-                        <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1679088/adam-silver-nba.jpg?w=397&h=265&f=49ddca7edab47d1dbcb6cff5f6de6d1a" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
-                        </div>
-                        <h3 class="story-title">
-                            <a href="#">'No Data' to Suggest NBA's Support for BLM Hit League's TV Ratings.</a>
-                        </h3>
-                    </div>
-
-                    <div class="col-12 col-sm-4 featured-story-card">
-                        <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1678960/philadelphia-eagles-carson-wentz.jpg?w=397&h=265&f=cd740b9e07f07eaf53700821cc1468c4" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
-                        </div>
-                        <h3 class="story-title">
-                            <a href="#">Should Eagles Drop Carson Wentz and Give Jalen Hurts a Shot at QB?</a>
-                        </h3>
-                    </div>
-
-                    <div class="col-12 col-sm-4">
-                        <div class="col-12 side-news-container">
-                            <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
-                            </div>
-                            <div class="opinion-desc">
-                                <h6 class="opinion-text">
-                                    The Dangerous Temptation of 'Back to Normal'
-                                </h6>
-                            </div>
-                        </div>
-                        <div class="col-12 side-news-container">
-                            <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
-                            </div>
-                            <div class="opinion-desc">
-                                <h6 class="opinion-text">
-                                    The Dangerous Temptation of 'Back to Normal'
-                                </h6>
-                            </div>
-                        </div>
-                        <div class="col-12 side-news-container">
-                            <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
                             </div>
                             <div class="opinion-desc">
                                 <h6 class="opinion-text">
@@ -1392,7 +1491,9 @@
                 <div class="row bottom-section-news">
                     <div class="col-12 col-sm-4 featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1679088/adam-silver-nba.jpg?w=397&h=265&f=49ddca7edab47d1dbcb6cff5f6de6d1a" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1679088/adam-silver-nba.jpg?w=397&h=265&f=49ddca7edab47d1dbcb6cff5f6de6d1a"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                         </div>
                         <h3 class="story-title">
                             <a href="#">'No Data' to Suggest NBA's Support for BLM Hit League's TV Ratings.</a>
@@ -1401,7 +1502,128 @@
 
                     <div class="col-12 col-sm-4 featured-story-card">
                         <div class="story-image-holder">
-                            <img src="https://d.newsweek.com/en/full/1678960/philadelphia-eagles-carson-wentz.jpg?w=397&h=265&f=cd740b9e07f07eaf53700821cc1468c4" alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020" class="featured-story-image">
+                            <img src="https://d.newsweek.com/en/full/1678960/philadelphia-eagles-carson-wentz.jpg?w=397&h=265&f=cd740b9e07f07eaf53700821cc1468c4"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
+                        </div>
+                        <h3 class="story-title">
+                            <a href="#">Should Eagles Drop Carson Wentz and Give Jalen Hurts a Shot at QB?</a>
+                        </h3>
+                    </div>
+
+                    <div class="col-12 col-sm-4">
+                        <div class="col-12 side-news-container">
+                            <div class="news-image">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
+                            </div>
+                            <div class="opinion-desc">
+                                <h6 class="opinion-text">
+                                    The Dangerous Temptation of 'Back to Normal'
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="col-12 side-news-container">
+                            <div class="news-image">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
+                            </div>
+                            <div class="opinion-desc">
+                                <h6 class="opinion-text">
+                                    The Dangerous Temptation of 'Back to Normal'
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="col-12 side-news-container">
+                            <div class="news-image">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
+                            </div>
+                            <div class="opinion-desc">
+                                <h6 class="opinion-text">
+                                    The Dangerous Temptation of 'Back to Normal'
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row bottom-section-news">
+                    <div class="col-12 col-sm-4 featured-story-card">
+                        <div class="story-image-holder">
+                            <img src="https://d.newsweek.com/en/full/1679088/adam-silver-nba.jpg?w=397&h=265&f=49ddca7edab47d1dbcb6cff5f6de6d1a"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
+                        </div>
+                        <h3 class="story-title">
+                            <a href="#">'No Data' to Suggest NBA's Support for BLM Hit League's TV Ratings.</a>
+                        </h3>
+                    </div>
+
+                    <div class="col-12 col-sm-4 featured-story-card">
+                        <div class="story-image-holder">
+                            <img src="https://d.newsweek.com/en/full/1678960/philadelphia-eagles-carson-wentz.jpg?w=397&h=265&f=cd740b9e07f07eaf53700821cc1468c4"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
+                        </div>
+                        <h3 class="story-title">
+                            <a href="#">Should Eagles Drop Carson Wentz and Give Jalen Hurts a Shot at QB?</a>
+                        </h3>
+                    </div>
+
+                    <div class="col-12 col-sm-4">
+                        <div class="col-12 side-news-container">
+                            <div class="news-image">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
+                            </div>
+                            <div class="opinion-desc">
+                                <h6 class="opinion-text">
+                                    The Dangerous Temptation of 'Back to Normal'
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="col-12 side-news-container">
+                            <div class="news-image">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
+                            </div>
+                            <div class="opinion-desc">
+                                <h6 class="opinion-text">
+                                    The Dangerous Temptation of 'Back to Normal'
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="col-12 side-news-container">
+                            <div class="news-image">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
+                            </div>
+                            <div class="opinion-desc">
+                                <h6 class="opinion-text">
+                                    The Dangerous Temptation of 'Back to Normal'
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row bottom-section-news">
+                    <div class="col-12 col-sm-4 featured-story-card">
+                        <div class="story-image-holder">
+                            <img src="https://d.newsweek.com/en/full/1679088/adam-silver-nba.jpg?w=397&h=265&f=49ddca7edab47d1dbcb6cff5f6de6d1a"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
+                        </div>
+                        <h3 class="story-title">
+                            <a href="#">'No Data' to Suggest NBA's Support for BLM Hit League's TV Ratings.</a>
+                        </h3>
+                    </div>
+
+                    <div class="col-12 col-sm-4 featured-story-card">
+                        <div class="story-image-holder">
+                            <img src="https://d.newsweek.com/en/full/1678960/philadelphia-eagles-carson-wentz.jpg?w=397&h=265&f=cd740b9e07f07eaf53700821cc1468c4"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
                         </div>
                         <h3 class="story-title">
                             <a href="#">Should Eagles Drop Carson Wentz and Give Jalen Hurts a Shot at QB?</a>
@@ -1411,7 +1633,8 @@
                     <div class="col-12 col-sm-4">
                         <div class="col-12 side-news-container">
                             <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
                             </div>
                             <div class="opinion-desc">
                                 <h6 class="opinion-text">
@@ -1421,7 +1644,8 @@
                         </div>
                         <div class="col-12 side-news-container">
                             <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
                             </div>
                             <div class="opinion-desc">
                                 <h6 class="opinion-text">
@@ -1431,7 +1655,8 @@
                         </div>
                         <div class="col-12 side-news-container">
                             <div class="news-image">
-                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c" alt="Author">
+                                <img src="https://d.newsweek.com/en/full/1679309/brussels.png?w=397&h=265&f=a2886c49c4053173415c1d643a1bb02c"
+                                    alt="Author">
                             </div>
                             <div class="opinion-desc">
                                 <h6 class="opinion-text">
@@ -1442,63 +1667,105 @@
                     </div>
                 </div>
 
-              </div>
-          </div>
-      </main>
+            </div>
 
-      <footer class="container">
-            <div class="row top-footer">
-                <div class="col-3">
-                     <a class="brand" href="https://www.newsweek.com"><svg version="1.1" width="396" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 396 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g><path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path></g></svg></a>
-                    <!-- <h3 class=" logo-holder">NewsWeek</h3> -->
+            <div>
+                <div class="bottom-section-featured-title">
+                    <h6>SUBSCRIBE</h6>
                 </div>
-                <div class="col-5 newsweek-copyright">
-                    <p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 2020 NEWSWEEK DIGITAL LLC</p>
-                </div>
-                <div class="col-4">
-                    <ul class="social-media">
-                        <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-slack" aria-hidden="true"></i></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row middle-footer">
-                <div class="col-12">
-                    <ul class="middle-footer-list">
-                        <li>Edition</li>
-                        <li>U.S Edition</li>
-                        <li>日本</li>
-                        <li>Pakistan</li>
-                        <li>PolsKa</li>
-                        <li>Romania</li>
-                    </ul>
+
+                <div class="row bottom-section-news">
+                    <div class="col-12 col-sm-8 featured-story-card subcribe-newsletter">
+                        <div class="feature-image-holder col-6">
+                            <img src="https://d.newsweek.com/en/full/1675581/cover-december-04-11-2020.jpg?w=170&q=95&f=b831bcfec318510363b4a65a51bc2b6a"
+                                alt="Donald Trump on Thanksgiving 2020" title="Donald Trump on Thanksgiving 2020"
+                                class="featured-story-image">
+                        </div>
+                        <div class="col-6">
+                            <br><h3 class="story-title">
+                                <a href="#">'No Data' to Suggest NBA's Support for BLM Hit League's TV Ratings.</a>
+                            </h3><br>
+                          
+                            <p>All Access + Weekly Delivery.</p><br>
+                            <button type="button" class="btn btn-danger">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        
+                    </div>
                 </div>
             </div>
-            <div class="row bottom-footer">
-                <div class="col-12">
-                    <ul class="bottom-footer-list">
-                        <li>About Us</li>
-                        <li>Corrrections</li>
-                        <li>Contact Us</li>
-                        <li>Editorial Guidelines</li>
-                        <li>Advertise</li>
-                        <li>Copyright</li>
-                        <li>Terms & Conditions</li>
-                        <li>Privacy Policy</li>
-                        <li>Cookie Policy</li>
-                        <li>Term of Sale</li>
-                        <li>Archive</li>
-                        <li>Announcements</li>
-                    </ul>
-                </div>
+        </div>
+    </main>
+
+    <footer class="container">
+        <div class="row top-footer">
+            <div class="col-3">
+                <a class="brand" href="https://www.newsweek.com"><svg version="1.1" width="396" height="60"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 396 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+                        <g>
+                            <path class="st0"
+                                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+                            </path>
+                        </g>
+                    </svg></a>
+                <!-- <h3 class=" logo-holder">NewsWeek</h3> -->
             </div>
-      </footer>
+            <div class="col-5 newsweek-copyright">
+                <p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 2020 NEWSWEEK DIGITAL LLC</p>
+            </div>
+            <div class="col-4">
+                <ul class="social-media">
+                    <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-slack" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row middle-footer">
+            <div class="col-12">
+                <ul class="middle-footer-list">
+                    <li>Edition</li>
+                    <li>U.S Edition</li>
+                    <li>日本</li>
+                    <li>Pakistan</li>
+                    <li>PolsKa</li>
+                    <li>Romania</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bottom-footer">
+            <div class="col-12">
+                <ul class="bottom-footer-list">
+                    <li>About Us</li>
+                    <li>Corrrections</li>
+                    <li>Contact Us</li>
+                    <li>Editorial Guidelines</li>
+                    <li>Advertise</li>
+                    <li>Copyright</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookie Policy</li>
+                    <li>Term of Sale</li>
+                    <li>Archive</li>
+                    <li>Announcements</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

@@ -64,6 +64,13 @@ body {
   color: inherit;
 }
 
+.subcribe-newsletter {
+    display: flex;
+    padding: 20px 0px;
+    background-color: #f4f5f6;
+    height: 400px;
+}
+
 .story-image-holder .story-category a {
   color: #f72210;
   text-transform: uppercase;
@@ -196,6 +203,12 @@ body {
   margin-bottom: 10px;
 }
 
+.feature-image-holder {
+    position: relative;
+    min-height: 33px;
+    margin-bottom: 10px;
+}
+
 .featured-ads-card {
   margin-bottom: 20px;
   max-width: 330px;
@@ -210,7 +223,7 @@ body {
 
 .featured-story-image {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .story-image-holder .story-category,
@@ -396,6 +409,13 @@ body {
   font-weight: 600;
   color: red;
   border-bottom: 1px solid silver;
+}
+
+.bottom-section-featured-title {
+    margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: red;
 }
 
 .editors-pick-title img {
