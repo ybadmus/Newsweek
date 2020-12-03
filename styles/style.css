@@ -23,7 +23,7 @@ body {
 .middle-footer .middle-footer-list li,
 .bottom-footer .bottom-footer-list li {
   display: inline;
-  padding: 0px 12px;
+  padding: 0 12px;
   color: #5e5959;
   font-size: 12px;
 }
