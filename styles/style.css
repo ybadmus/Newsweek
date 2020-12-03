@@ -23,14 +23,13 @@ body {
 .middle-footer .middle-footer-list li,
 .bottom-footer .bottom-footer-list li {
   display: inline;
-  margin: 0 5px;
+  padding: 0px 12px;
   color: #5e5959;
   font-size: 12px;
 }
 
 .middle-footer .bottom-footer-list li,
 .bottom-footer .bottom-footer-list li {
-  flex-grow: 1;
   text-align: center;
   border-right: 1px solid gray;
 }
@@ -42,7 +41,7 @@ body {
 #navbar1 li {
   flex-grow: 1;
   text-align: center;
-  border-left: 1px solid gray;
+  border-left: 1px solid silver;
 }
 
 #navbar1 li:first-child {
@@ -78,6 +77,11 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 12px;
+}
+
+#navbar3-container a {
+  color: white;
+  font-size: 20px;
 }
 
 #navbar1 li a {
@@ -180,6 +184,9 @@ body {
 
 .featured-ads-card {
   margin-bottom: 20px;
+  max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .story-ads-holder {
@@ -232,7 +239,7 @@ body {
 .story-title-mini {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: "Roboto Condensed", sans-serif;
   margin-bottom: 10px;
   position: relative;
@@ -333,6 +340,10 @@ body {
   margin-right: 15px;
 }
 
+.opinion-desc {
+  width: 90%;
+}
+
 .opinion-desc .opinion-text {
   color: inherit;
   text-decoration: none;
@@ -389,15 +400,19 @@ body {
 }
 
 .editors-pick-category .first-category {
-  padding: 5px;
+  padding: 2px;
   background-color: red;
   color: white;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .editors-pick-category .second-category {
-  padding: 5px;
+  padding: 2px;
   background-color: white;
   color: black;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .bottom-section-news {
@@ -434,6 +449,11 @@ footer {
   float: right;
 }
 
+.bottom-footer-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .middle-footer .middle-footer-list,
 .bottom-footer .bottom-footer-list {
   padding-left: 0;
@@ -444,23 +464,26 @@ footer {
   background-color: #f72210;
 }
 
-#navbar3-container a {
-  color: white;
-  font-size: 20px;
-}
-
 .menu-person-logo {
   margin-right: 5px;
 }
 
 .debate .vs-logo-debate {
-    padding: 6px;
-    border-radius: 50%;
-    background-color: black;
-    color: white;
-    position: absolute;
-    top: 40%;
-    right: 50%;
-    font-size: 14px;
-    font-weight: 600;
+  padding: 6px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 36%;
+  right: 50%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 564px) {
+  .side-news-container .news-image img {
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+  }
 }
