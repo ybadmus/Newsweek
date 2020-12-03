@@ -12,6 +12,10 @@ body {
   padding: 15px 25px;
 }
 
+.nav-item i {
+  color: white;
+}
+
 #navbar1 {
   display: flex;
   justify-content: center;
