@@ -1,7 +1,7 @@
 {
-  "name": "thenextweb",
+  "name": "newsweek",
   "version": "1.0.0",
-  "description": "clone of TNW official website",
+  "description": "Clone of Newsweek magazine offical website",
   "main": "index.html",
   "dependencies": {
     "stylelint-config-standard": "^20.0.0",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ybadmus/The-Next-Web.git"
+    "url": "git+https://github.com/ybadmus/Newsweek.git"
   },
   "keywords": [
     "The",
@@ -27,7 +27,7 @@
   "author": "\\ybadmus",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ybadmus/The-Next-Web/issues"
+    "url": "https://github.com/ybadmus/Newsweek/issues"
   },
-  "homepage": "https://github.com/ybadmus/The-Next-Web#readme"
+  "homepage": "https://github.com/ybadmus/Newsweek#readme"
 }
