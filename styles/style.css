@@ -354,6 +354,8 @@ body {
 
 .author {
   font-size: 12px;
+  font-weight: 600;
+  color: #5d6062;
 }
 
 .editors-pick-title {
