@@ -89,7 +89,7 @@ body {
 
 .subcribe-newsletter .second-featured-image-2 {
   position: absolute;
-  left: 150px
+  left: 150px;
 }
 
 .story-image-holder .story-category a {
@@ -475,7 +475,7 @@ body {
 }
 
 .bottom-section-news {
-  padding: 20px 0px;
+  padding: 20px 0;
   border-bottom: 1px solid silver;
 }
 
