@@ -555,7 +555,7 @@ footer {
 }
 
 .newsletter-buttons .news-letter-actions {
-  margin: 0px;
+  margin: 0;
   width: 120px;
 }
 
@@ -573,7 +573,7 @@ footer {
 
   .top-footer .social-media {
     float: left;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .top-footer .newsweek-copyright {
@@ -581,7 +581,8 @@ footer {
     margin-top: 20px;
   }
 
-  .middle-footer .bottom-footer-list li, .bottom-footer .bottom-footer-list li {
+  .middle-footer .bottom-footer-list li,
+  .bottom-footer .bottom-footer-list li {
     text-align: center;
     border-right: 1px solid white;
   }
