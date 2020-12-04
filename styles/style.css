@@ -510,6 +510,10 @@ footer {
   float: right;
 }
 
+.top-footer .brand {
+  float: left;
+}
+
 .bottom-footer-list {
   display: flex;
   flex-wrap: wrap;
@@ -559,5 +563,25 @@ footer {
 
   .second-featured-image-2 {
     display: none;
+  }
+
+  .my-turn-picture {
+    height: auto;
+    width: 100%;
+  }
+
+  .top-footer .social-media {
+    float: left;
+    padding-left: 0px;
+  }
+
+  .top-footer .newsweek-copyright {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .middle-footer .bottom-footer-list li, .bottom-footer .bottom-footer-list li {
+    text-align: center;
+    border-right: 1px solid white;
   }
 }
