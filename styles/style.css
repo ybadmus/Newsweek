@@ -87,6 +87,11 @@ body {
   margin: 10px 0;
 }
 
+.subcribe-newsletter .second-featured-image-2 {
+  position: absolute;
+  left: 150px
+}
+
 .story-image-holder .story-category a {
   color: #f72210;
   text-transform: uppercase;
