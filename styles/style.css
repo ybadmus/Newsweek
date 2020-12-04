@@ -561,10 +561,6 @@ footer {
     margin-right: 15px;
   }
 
-  .second-featured-image-2 {
-    display: none;
-  }
-
   .my-turn-picture {
     height: auto;
     width: 100%;
@@ -584,4 +580,16 @@ footer {
     text-align: center;
     border-right: 1px solid white;
   }
+
+  .subcribe-newsletter {
+    display: flex;
+    padding: 20px 0;
+    background-color: #f4f5f6;
+    height: 300px;
+  }
+
+  .subcribe-newsletter .second-featured-image-2 {
+    position: absolute;
+    left: 100px;
+}
 }
