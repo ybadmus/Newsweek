@@ -554,6 +554,10 @@ footer {
   margin-top: 30px;
 }
 
+.newsletter-buttons input, .newsletter-buttons button {
+  margin: 0px;
+}
+
 @media screen and (max-width: 564px) {
   .side-news-container .news-image img {
     width: 150px;
@@ -591,5 +595,5 @@ footer {
   .subcribe-newsletter .second-featured-image-2 {
     position: absolute;
     left: 100px;
-}
+  }
 }
