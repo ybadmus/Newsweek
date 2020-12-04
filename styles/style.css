@@ -554,8 +554,9 @@ footer {
   margin-top: 30px;
 }
 
-.newsletter-buttons input, .newsletter-buttons button {
+.newsletter-buttons .news-letter-actions {
   margin: 0px;
+  width: 120px;
 }
 
 @media screen and (max-width: 564px) {
