@@ -475,7 +475,7 @@ body {
 }
 
 .bottom-section-news {
-  padding: 20px 50px;
+  padding: 20px 0px;
   border-bottom: 1px solid silver;
 }
 
@@ -555,5 +555,9 @@ footer {
     width: 150px;
     height: auto;
     margin-right: 15px;
+  }
+
+  .second-featured-image-2 {
+    display: none;
   }
 }
