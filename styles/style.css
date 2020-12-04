@@ -433,6 +433,11 @@ body {
   color: red;
 }
 
+.bottom-section-featured-title h6 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .editors-pick-title img {
   display: inline-block;
   width: 29px;
@@ -533,6 +538,11 @@ footer {
 
 #searchField input {
   border: none;
+}
+
+.usa-politic-othernews-section {
+  border-top: 1px solid silver;
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 564px) {
